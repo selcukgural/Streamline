@@ -1,0 +1,56 @@
+# Build results
+bin/
+obj/
+out/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Rider logs
+.idea/
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Others
+*.dbmdl
+*.pdb
+*.cache
+*.bak
+*.tmp
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db

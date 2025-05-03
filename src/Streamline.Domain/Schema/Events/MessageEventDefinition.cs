@@ -1,0 +1,19 @@
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.
+
+namespace Streamline.Domain.Schema.Events;
+
+[System.CodeDom.Compiler.GeneratedCodeAttribute("XmlSchemaClassGenerator", "2.1.1182.0")]
+[Serializable]
+[System.Xml.Serialization.XmlTypeAttribute("tMessageEventDefinition", Namespace="http://www.omg.org/spec/BPMN/20100524/MODEL")]
+[System.Diagnostics.DebuggerStepThroughAttribute]
+[System.ComponentModel.DesignerCategoryAttribute("code")]
+[System.Xml.Serialization.XmlRootAttribute("messageEventDefinition", Namespace="http://www.omg.org/spec/BPMN/20100524/MODEL")]
+public partial class MessageEventDefinition : EventDefinition
+{
+        
+    [System.Xml.Serialization.XmlElementAttribute("operationRef")]
+    public System.Xml.XmlQualifiedName OperationRef { get; set; }
+        
+    [System.Xml.Serialization.XmlAttributeAttribute("messageRef")]
+    public System.Xml.XmlQualifiedName MessageRef { get; set; }
+}

@@ -1,0 +1,9 @@
+Proccess(name="TestProcess", id="TestProcess")
+{
+    StartEvent(name="Start", id="StartEvent_1")
+    SequenceFlow(sourceRef="StartEvent_1", targetRef="EndEvent_1")
+    UserTask(name="UserTask", id="UserTask_1")
+    SequenceFlow(sourceRef="UserTask_1", targetRef="EndEvent_1")
+    Gateway(name="ExclusiveGateway", id="ExclusiveGateway_1")
+    EndEvent(name="End", id="EndEvent_1")
+}

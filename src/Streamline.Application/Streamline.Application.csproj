@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Streamline.Domain\Streamline.Domain.csproj" />
+    <ProjectReference Include="..\Streamline.Engine\Streamline.Engine\Streamline.Engine.csproj" />
+    <!-- <ProjectReference Include="..\Streamline.Engine\Streamline.Engine\Streamline.Engine.csproj" /> -->
+    <!-- <ProjectReference Include="..\Streamline.Infrastructure\Streamline.Infrastructure.csproj" /> -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire.Core" Version="1.8.18" />
+    <PackageReference Include="MediatR" Version="12.5.0" />
+    <PackageReference Include="NodaTime" Version="3.2.2" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

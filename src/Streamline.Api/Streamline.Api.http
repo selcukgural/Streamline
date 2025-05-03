@@ -1,0 +1,6 @@
+@Streamline.Api_HostAddress = http://localhost:5208
+
+GET {{Streamline.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
